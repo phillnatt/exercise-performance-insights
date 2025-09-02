@@ -55,18 +55,23 @@ The analysis applied multiple modelling techniques to explore relationships and 
 - **Regression Modelling**:
   - Used to predict calories burned based on physiological features
   - Model performance: RMSE = 117.7, R² = -0.048
-  - Interpretation: Low predictive power due to missing behavioural/contextual variables
+  - Interpretation: Low predictive power
   ![alt image](https://github.com/phillnatt/exercise-performance-insights/blob/5d7586acb64b77aeacd7eec4ee6b6eb8d70bba9d/02%20Images/Rnumber.png)
+  - This is likely due to missing contextual factors such as diet, metabolism and exercise consistency.
+
+
 - **Classification Modelling**:
   - Logistic regression to classify weight goal achievement
   ![image alt](https://github.com/phillnatt/exercise-performance-insights/blob/0615cf5f287337e25e4ff4200a9773fd5120ce2c/02%20Images/Classification_matrix.png)
   - ![image alt](https://github.com/phillnatt/exercise-performance-insights/blob/0615cf5f287337e25e4ff4200a9773fd5120ce2c/02%20Images/confusion_matrix.png)
-  - Accuracy: ~51%, indicating poor class separation and complexity of behavioural outcomes
+  - Accuracy: ~51%, indicating poor class separation
+  - This low accuracy indicates that goal achievement is incredibly complex and requires the analysis of additional factors not available within this dataset
   
 
 - **Clustering**:
   - K-Means clustering revealed three distinct behavioural groups based on exercise intensity, duration, and calories burned
 ![image alt](https://github.com/phillnatt/exercise-performance-insights/blob/main/02%20Images/K_Means_Clustering.png)
+  - Whilst the clustering revealed some groupings within the data, they were not strongly separated within the results, meaning that whilst they were useful for exploratory purposes they are not definitive without further data validation and investigation. 
 ---
 
 ## Visualisation
