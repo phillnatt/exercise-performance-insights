@@ -85,10 +85,8 @@ Visualisation played a key role in communicating insights:
   - Power BI dashboard allows filtering by age group, gender, and exercise type
 ![image alt](https://github.com/phillnatt/exercise-performance-insights/blob/0615cf5f287337e25e4ff4200a9773fd5120ce2c/03%20Dashboard/Dashboard1_Overview.png)
   - Overview screen showing highlights of data, including gender split, users average BMI & Weight, and average calories burned per session
-    
 ![image alt](https://github.com/phillnatt/exercise-performance-insights/blob/0615cf5f287337e25e4ff4200a9773fd5120ce2c/03%20Dashboard/Dashboard2_Performance_insights.png)
   - Key performance insights section showing performance indicators such as average heart rate and calories burned over time
-  - 
 ![image alt](https://github.com/phillnatt/exercise-performance-insights/blob/0615cf5f287337e25e4ff4200a9773fd5120ce2c/03%20Dashboard/Dashboard3_Environmental_Factors.png)
   - Section showing how weather conditions impact performance, using key veriables such as calories burned, intensity level, and average duration
 
